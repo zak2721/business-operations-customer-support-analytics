@@ -1,0 +1,253 @@
+{
+  "correlations": {
+    "First response time vs CSAT": {
+      "n": "12264",
+      "spearman_rho": "-0.372",
+      "spearman_p": "0.0",
+      "strength": "moderate"
+    },
+    "Resolution time vs CSAT": {
+      "n": "12301",
+      "spearman_rho": "-0.561",
+      "spearman_p": "0.0",
+      "strength": "strong"
+    },
+    "Agent monthly workload vs avg resolution time": {
+      "n": "1984",
+      "spearman_rho": "0.14",
+      "spearman_p": "3.5009569221735983e-10",
+      "strength": "weak"
+    },
+    "Agent monthly workload vs SLA compliance": {
+      "n": "1976",
+      "spearman_rho": "-0.121",
+      "spearman_p": "6.079159678019008e-08",
+      "strength": "weak"
+    },
+    "Priority (ordinal) vs SLA breach": {
+      "n": "23211",
+      "spearman_rho": "0.116",
+      "spearman_p": "1.590679747830945e-70",
+      "strength": "weak"
+    },
+    "Daily transaction volume vs operational cost": {
+      "n": "1096",
+      "spearman_rho": "0.99",
+      "spearman_p": "0.0",
+      "strength": "strong"
+    }
+  },
+  "chi_square": {
+    "Priority x SLA breach": {
+      "chi2": 413.52,
+      "p_value": 2.6073577334295732e-89,
+      "cramers_v": 0.133
+    },
+    "Channel x SLA breach": {
+      "chi2": 1546.07,
+      "p_value": 0.0,
+      "cramers_v": 0.258
+    },
+    "Category x SLA breach": {
+      "chi2": 2446.64,
+      "p_value": 0.0,
+      "cramers_v": 0.325
+    },
+    "Channel x Satisfied (CSAT>=4)": {
+      "chi2": 1262.81,
+      "p_value": 7.266702990310405e-271,
+      "cramers_v": 0.32
+    },
+    "Experience level x Reopened": {
+      "chi2": 310.99,
+      "p_value": 4.158446420744555e-67,
+      "cramers_v": 0.114
+    },
+    "Customer segment x SLA breach": {
+      "chi2": 1.02,
+      "p_value": 0.7960278193442303,
+      "cramers_v": 0.007
+    }
+  },
+  "group_tests": {
+    "CSAT: within SLA vs breached": {
+      "n_a": 8431,
+      "n_b": 3870.0,
+      "mean_a": 4.193,
+      "mean_b": 2.787,
+      "median_a": 4.0,
+      "median_b": 3.0,
+      "mann_whitney_p": 0.0,
+      "welch_t_p": 0.0,
+      "rank_biserial": 0.767
+    },
+    "Resolution h: Junior vs Senior/Lead agents": {
+      "n_a": 2645,
+      "n_b": 11598.0,
+      "mean_a": 58.827,
+      "mean_b": 28.747,
+      "median_a": 37.437,
+      "median_b": 18.37,
+      "mann_whitney_p": 3.043794274537936e-150,
+      "welch_t_p": 2.706044200840871e-93,
+      "rank_biserial": 0.325
+    },
+    "CSAT: real-time (phone/chat) vs async channels": {
+      "n_a": 5608,
+      "n_b": 6653.0,
+      "mean_a": 4.144,
+      "mean_b": 3.42,
+      "median_a": 4.0,
+      "median_b": 3.0,
+      "mann_whitney_p": 0.0,
+      "welch_t_p": 0.0,
+      "rank_biserial": 0.409
+    },
+    "CSAT: FCR vs non-FCR resolved tickets": {
+      "n_a": 2435,
+      "n_b": 9866.0,
+      "mean_a": 4.471,
+      "mean_b": 3.573,
+      "median_a": 5.0,
+      "median_b": 4.0,
+      "mann_whitney_p": 0.0,
+      "welch_t_p": 0.0,
+      "rank_biserial": 0.517
+    },
+    "Resolution h: Billing 2025 vs Billing 2024": {
+      "n_a": 2029,
+      "n_b": 1447.0,
+      "mean_a": 49.041,
+      "mean_b": 27.284,
+      "median_a": 32.851,
+      "median_b": 19.389,
+      "mann_whitney_p": 4.442050712574729e-34,
+      "welch_t_p": 5.209644177626488e-44,
+      "rank_biserial": 0.242
+    },
+    "Resolution h across 6 channels (Kruskal-Wallis)": {
+      "n_a": 23211,
+      "n_b": NaN,
+      "mean_a": NaN,
+      "mean_b": NaN,
+      "median_a": NaN,
+      "median_b": NaN,
+      "mann_whitney_p": 0.0,
+      "welch_t_p": NaN,
+      "rank_biserial": NaN
+    }
+  },
+  "billing_sla_2025_vs_2024": {
+    "p1_pct": 60.08,
+    "p2_pct": 82.86,
+    "diff_pp": -22.78,
+    "z": -14.389,
+    "p_value": 0.0
+  },
+  "csat_ols_r2": 0.5563,
+  "csat_ols_key_coefs": {
+    "log_frt": {
+      "coef": -0.1608,
+      "ci_low": -0.1801,
+      "ci_high": -0.1415,
+      "p_value": 0.0
+    },
+    "sla_breached_i": {
+      "coef": -1.0254,
+      "ci_low": -1.0574,
+      "ci_high": -0.9933,
+      "p_value": 0.0
+    },
+    "reopened_count": {
+      "coef": -0.5384,
+      "ci_low": -0.5704,
+      "ci_high": -0.5064,
+      "p_value": 0.0
+    },
+    "escalated": {
+      "coef": -0.4018,
+      "ci_low": -0.4425,
+      "ci_high": -0.3612,
+      "p_value": 0.0
+    },
+    "fcr": {
+      "coef": 0.2555,
+      "ci_low": 0.225,
+      "ci_high": 0.2859,
+      "p_value": 0.0
+    }
+  },
+  "sla_logit_pseudo_r2": 0.2289,
+  "model": {
+    "selected_model": "Gradient Boosting",
+    "models": {
+      "Logistic Regression": {
+        "cv_roc_auc_mean": 0.8229,
+        "cv_roc_auc_std": 0.0049,
+        "threshold": 0.59,
+        "test_roc_auc": 0.7969,
+        "test_pr_auc": 0.6259,
+        "test_precision": 0.5728,
+        "test_recall": 0.5909,
+        "test_f1": 0.5817,
+        "confusion_matrix": {
+          "tn": 4651,
+          "fp": 1100,
+          "fn": 1021,
+          "tp": 1475
+        }
+      },
+      "Gradient Boosting": {
+        "cv_roc_auc_mean": 0.8106,
+        "cv_roc_auc_std": 0.0144,
+        "threshold": 0.54,
+        "test_roc_auc": 0.7987,
+        "test_pr_auc": 0.6392,
+        "test_precision": 0.5569,
+        "test_recall": 0.6094,
+        "test_f1": 0.582,
+        "confusion_matrix": {
+          "tn": 4541,
+          "fp": 1210,
+          "fn": 975,
+          "tp": 1521
+        }
+      }
+    },
+    "top_decile_breach_rate_pct": 75.27,
+    "bottom_decile_breach_rate_pct": 0.73,
+    "test_breach_rate_pct": 30.27,
+    "top_features": [
+      {
+        "feature": "support_channel",
+        "importance": 0.1032,
+        "std": 0.0047
+      },
+      {
+        "feature": "ticket_category",
+        "importance": 0.05,
+        "std": 0.0025
+      },
+      {
+        "feature": "experience_level",
+        "importance": 0.0331,
+        "std": 0.0027
+      },
+      {
+        "feature": "ticket_subcategory",
+        "importance": 0.0264,
+        "std": 0.0019
+      },
+      {
+        "feature": "created_dayname",
+        "importance": 0.0247,
+        "std": 0.0011
+      },
+      {
+        "feature": "ticket_priority",
+        "importance": 0.0194,
+        "std": 0.0017
+      }
+    ]
+  }
+}

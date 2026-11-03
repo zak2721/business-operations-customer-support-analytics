@@ -1,0 +1,37 @@
+department_name,cost_category,2023,2025,change,change_pct
+Billing & Accounts,Outsourcing,53063.07,117242.28,64179.0,120.9
+Technical Support,Personnel,541284.82,570343.51,29059.0,5.4
+Customer Success,Personnel,326282.05,355191.19,28909.0,8.9
+Order Management,Personnel,285125.26,312040.9,26916.0,9.4
+Billing & Accounts,Personnel,307247.27,333040.97,25794.0,8.4
+Logistics & Delivery,Personnel,386818.71,406649.75,19831.0,5.1
+Returns & Refunds,Personnel,224354.03,240348.35,15994.0,7.1
+Technical Support,Technology & Software,128439.09,139612.31,11173.0,8.7
+Order Management,Technology & Software,67680.56999999999,75601.75,7921.0,11.7
+Logistics & Delivery,Technology & Software,92165.1,99455.85,7291.0,7.9
+Customer Success,Technology & Software,80224.9,87314.41,7090.0,8.8
+Billing & Accounts,Technology & Software,72657.35,79621.36,6964.0,9.6
+Technical Support,Facilities,71768.39,78202.34,6434.0,9.0
+Logistics & Delivery,Facilities,52430.94,57801.62,5371.0,10.2
+Technical Support,Outsourcing,91663.41,96830.47,5167.0,5.6
+Customer Success,Outsourcing,56932.799999999996,62019.7,5087.0,8.9
+Technical Support,Telecommunications,54747.32,59753.03,5006.0,9.1
+Billing & Accounts,Facilities,40801.36,45421.64,4620.0,11.3
+Logistics & Delivery,Outsourcing,66756.85,70872.83,4116.0,6.2
+Order Management,Outsourcing,48802.35,52754.4,3952.0,8.1
+Returns & Refunds,Technology & Software,54479.34,58158.7,3679.0,6.8
+Technical Support,Training & Development,38528.37,41682.95,3155.0,8.2
+Customer Success,Telecommunications,33398.62,36393.57,2995.0,9.0
+Billing & Accounts,Telecommunications,31567.98,34334.91,2767.0,8.8
+Customer Success,Facilities,45579.81,48206.24,2626.0,5.8
+Order Management,Facilities,39686.58,42272.67,2586.0,6.5
+Order Management,Telecommunications,29082.01,31503.17,2421.0,8.3
+Returns & Refunds,Facilities,30668.87,32949.77,2281.0,7.4
+Logistics & Delivery,Telecommunications,40933.05,43079.47,2146.0,5.2
+Logistics & Delivery,Training & Development,28039.81,29891.95,1852.0,6.6
+Returns & Refunds,Training & Development,16065.48,17915.19,1850.0,11.5
+Customer Success,Training & Development,24727.76,26508.739999999998,1781.0,7.2
+Order Management,Training & Development,20596.4,22036.170000000002,1440.0,7.0
+Returns & Refunds,Outsourcing,39062.57,40167.1,1105.0,2.8
+Returns & Refunds,Telecommunications,23176.17,24040.489999999998,864.0,3.7
+Billing & Accounts,Training & Development,22888.18,23724.88,837.0,3.7

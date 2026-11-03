@@ -1,0 +1,16 @@
+department_name,ticket_priority,created_year,resolved,breaches,breach_pct,dept_year_breach_pct
+Returns & Refunds,Critical,2025,63,40,63.49,46.72
+Billing & Accounts,Critical,2025,133,84,63.16,39.92
+Logistics & Delivery,Critical,2025,51,31,60.78,38.64
+Returns & Refunds,Medium,2025,383,183,47.78,46.72
+Returns & Refunds,High,2025,195,91,46.67,46.72
+Logistics & Delivery,High,2025,185,85,45.95,38.64
+Returns & Refunds,Low,2025,275,114,41.45,46.72
+Billing & Accounts,High,2025,424,175,41.27,39.92
+Technical Support,Critical,2025,198,81,40.91,25.54
+Billing & Accounts,Medium,2025,870,350,40.23,39.92
+Logistics & Delivery,Medium,2025,385,135,35.06,38.64
+Logistics & Delivery,Low,2025,264,91,34.47,38.64
+Billing & Accounts,Low,2025,602,201,33.39,39.92
+Customer Success,Critical,2025,68,22,32.35,15.81
+Technical Support,High,2025,805,240,29.81,25.54

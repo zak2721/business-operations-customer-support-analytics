@@ -1,0 +1,5 @@
+quartile,agents,avg_sla_pct,avg_csat,avg_reopen_pct,experience_levels
+1,15,87.93,3.92,5.27,"Junior, Lead, Mid-Level, Senior"
+2,15,78.45,3.89,5.98,"Lead, Mid-Level, Senior"
+3,14,70.03,3.68,9.18,"Junior, Lead, Mid-Level"
+4,14,51.27,3.49,13.92,"Junior, Mid-Level, Senior"

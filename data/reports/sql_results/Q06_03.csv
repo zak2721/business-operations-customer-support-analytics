@@ -1,0 +1,5 @@
+experience_level,agents,tickets,avg_resolution_h,sla_pct,reopen_pct,avg_csat
+Junior,9,2748,58.83,53.23,16.58,3.41
+Mid-Level,23,9257,34.63,72.01,8.75,3.74
+Senior,17,7707,29.27,76.8,6.33,3.82
+Lead,11,4273,27.8,80.42,5.67,3.88

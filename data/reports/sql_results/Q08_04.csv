@@ -1,0 +1,7 @@
+department_name,avg_res_h,res_vs_company_h,sla_pct,sla_vs_company_pp,fcr_pct,fcr_vs_company_pp,csat,csat_vs_company
+Returns & Refunds,59.75,25.29,50.0,-22.91,10.63,-10.86,3.546,-0.204
+Logistics & Delivery,43.39,8.93,63.85,-9.06,14.23,-7.26,3.607,-0.143
+Billing & Accounts,35.88,1.42,73.73,0.82,20.61,-0.88,3.725,-0.025
+Technical Support,30.03,-4.43,74.71,1.8,22.36,0.87,3.795,0.045
+Customer Success,23.88,-10.58,83.07,10.16,28.98,7.49,3.753,0.003
+Order Management,20.8,-13.66,88.22,15.31,31.28,9.79,3.999,0.249

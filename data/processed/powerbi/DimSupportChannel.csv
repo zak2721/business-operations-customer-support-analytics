@@ -1,0 +1,7 @@
+channel_key,support_channel,channel_type
+1,Email,Asynchronous
+2,Phone,Real-time
+3,Live Chat,Real-time
+4,Web Portal,Asynchronous
+5,Social Media,Asynchronous
+6,Unknown,Unknown

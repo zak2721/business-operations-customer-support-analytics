@@ -1,0 +1,5 @@
+priority_key,ticket_priority,priority_sort,sla_target_hours,frt_target_hours
+1,Critical,1,8,1
+2,High,2,24,4
+3,Medium,3,48,8
+4,Low,4,72,24

@@ -1,0 +1,7 @@
+test,chi2,dof,p_value,cramers_v,min_expected_count,significant_at_0.05
+Priority x SLA breach,413.52,3,2.6073577334295732e-89,0.133,433.4,True
+Channel x SLA breach,1546.07,5,0.0,0.258,30.9,True
+Category x SLA breach,2446.64,7,0.0,0.325,256.5,True
+Channel x Satisfied (CSAT>=4),1262.81,5,7.266702990310405e-271,0.32,20.1,True
+Experience level x Reopened,310.99,3,4.158446420744555e-67,0.114,221.2,True
+Customer segment x SLA breach,1.02,3,0.7960278193442303,0.007,875.4,False

@@ -1,0 +1,4 @@
+relationship,violations
+tickets -> agents (non-null),0
+tickets -> customers,0
+feedback -> tickets,0

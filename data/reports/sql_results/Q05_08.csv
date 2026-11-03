@@ -1,0 +1,7 @@
+aging_bucket,open_tickets,never_responded,past_sla_target
+1. 0-2 days,35,6,0
+2. 3-7 days,18,1,17
+3. 8-14 days,19,0,19
+4. 15-30 days,30,5,30
+5. 31-60 days,45,12,45
+6. 60+ days,110,20,110

@@ -1,0 +1,42 @@
+table,check,issue_type,records_affected,action,decision
+customers,exact_duplicates,Duplicate,30,removed,Rows identical in every column are copies of the same event; the first occurrence is kept.
+customers,segment_label_case,Inconsistent label,40,corrected,Segment labels standardised to the four canonical values (case-insensitive match).
+customers,registration_date_format,Data type / format,60,corrected,Legacy 'DD-Mon-YYYY' dates converted to ISO dates; unparseable values would become NaT.
+customers,missing_region,Missing value,45,corrected,"Region is fully determined by country, so missing regions are derived from customer_country."
+customers,missing_clv,Missing value,70,imputed,CLV imputed with the segment median (CLV differs ~20x across segments); rows flagged clv_imputed.
+support_tickets,exact_duplicates,Duplicate,150,removed,Rows identical in every column are copies of the same event; the first occurrence is kept.
+support_tickets,channel_label_variants,Inconsistent label,400,corrected,"Channel spellings (e.g. 'E-mail', 'chat') mapped to 5 canonical channels."
+support_tickets,missing_channel,Missing value,120,imputed,Channel cannot be inferred from other fields; labelled 'Unknown' so tickets still count in totals.
+support_tickets,priority_label_case,Inconsistent label,300,corrected,Priority labels standardised to Title Case.
+support_tickets,sla_target_vs_priority,Inconsistent value,180,corrected,"SLA target is a business rule of priority (Critical 8h, High 24h, Medium 48h, Low 72h); recomputed."
+support_tickets,fk_agent,Orphan key,15,flagged,"agent_id not in agent master: set to NULL (kept for volume KPIs, excluded from agent-level KPIs)."
+support_tickets,fk_customer,Orphan key,0,none,customer_id validated against master table.
+support_tickets,fk_department,Orphan key,0,none,department_id validated against master table.
+support_tickets,resolved_before_created,Impossible timestamp,25,flagged,Resolution timestamp precedes creation (impossible). Timestamp nulled; ticket kept as resolved for counts but excluded from resolution-time and SLA calculations.
+support_tickets,response_before_created,Impossible timestamp,0,none,First response before creation is impossible; timestamp nulled.
+support_tickets,response_after_resolution,Impossible timestamp,0,none,First response must not be after resolution.
+support_tickets,resolved_missing_first_response,Missing value,90,flagged,Resolved tickets without a first-response timestamp are kept; excluded from FRT averages only.
+support_tickets,unresolved_with_resolved_date,Inconsistent value,0,none,Open/pending/cancelled tickets must not carry a resolution date.
+support_tickets,ticket_before_registration,Impossible timestamp,0,none,Ticket cannot pre-date customer registration.
+support_tickets,agent_department_consistency,Inconsistent value,0,none,Ticket department should match assigned agent's department.
+support_tickets,extreme_first_response,Outlier,0,none,First response > 14 days is implausible; retained but reviewable.
+customer_feedback,exact_duplicates,Duplicate,60,removed,Rows identical in every column are copies of the same event; the first occurrence is kept.
+customer_feedback,fk_ticket,Orphan key,12,removed,"Feedback that references a non-existent ticket cannot be attributed to any agent, channel or category; removed (count reported)."
+customer_feedback,customer_matches_ticket,Inconsistent value,25,corrected,customer_id on feedback must equal the ticket's customer; replaced with the ticket's customer_id.
+customer_feedback,satisfaction_scale,Out of range,40,flagged,Scores outside 1-5 cannot be mapped reliably; set to NULL and flagged (record kept for rating).
+customer_feedback,missing_satisfaction,Missing value,110,flagged,Missing CSAT is not imputed: averaging imputed scores would bias satisfaction KPIs.
+customer_feedback,rating_scale,Out of range,0,none,Rating must be 1-10.
+customer_feedback,feedback_before_resolution,Impossible timestamp,0,none,Survey should be sent after resolution.
+operations,success_plus_failed_equals_total,Inconsistent value,20,corrected,"successful + failed must equal total; total and failed come from the system log, so successful is recomputed."
+operations,negative_cost,Invalid value,12,corrected,"Costs cannot be negative. Magnitudes match the process's normal range, indicating a sign-entry error; absolute value used and row flagged."
+operations,cost_outlier_robust_z,Outlier,18,imputed,Cost-per-transaction robust z-score > 8 within process (10x+ normal). Treated as entry errors: cost replaced with process-month median cost/txn x volume; original kept in operational_cost_original.
+operations,missing_processing_time,Missing value,70,imputed,Imputed with the same process's median for that month; flagged processing_time_imputed.
+operations,fk_department,Orphan key,0,none,Department validated.
+business_costs,missing_indirect_cost,Missing value,15,corrected,"indirect = total - direct (exact derivation, not an estimate)."
+business_costs,total_equals_components,Inconsistent value,25,corrected,total_cost recomputed as direct + indirect (components are the source of truth).
+business_costs,negative_cost,Invalid value,0,none,Costs must be non-negative.
+agent_performance,sla_rate_0_100,Out of range,8,flagged,A percentage cannot exceed 100; set to NULL (recomputable from ticket data).
+agent_performance,csat_scale,Out of range,0,none,Monthly agent CSAT averages must lie on the 1-5 survey scale.
+agent_performance,resolved_vs_assigned,Plausibility,0,none,Resolved counts by resolution month can legitimately exceed same-month assignments; only extreme gaps flagged.
+agent_performance,fk_agent,Orphan key,0,none,Agent validated.
+calendar,contiguous_dates,Completeness,0,none,Date dimension must have one row per day with no gaps.

@@ -1,0 +1,18 @@
+,coef,ci_low,ci_high,p_value
+Intercept,4.2959,4.2305,4.3612,0.0
+"C(support_channel, Treatment('Email'))[T.Live Chat]",0.0645,0.0157,0.1132,0.0096
+"C(support_channel, Treatment('Email'))[T.Phone]",0.0661,0.0164,0.1158,0.0092
+"C(support_channel, Treatment('Email'))[T.Social Media]",-0.1982,-0.2489,-0.1474,0.0
+"C(support_channel, Treatment('Email'))[T.Web Portal]",-0.0618,-0.101,-0.0226,0.002
+"C(ticket_category, Treatment('Product Inquiry'))[T.Account Access]",0.0561,-0.0033,0.1155,0.0642
+"C(ticket_category, Treatment('Product Inquiry'))[T.Billing & Payment]",0.0135,-0.0426,0.0696,0.6365
+"C(ticket_category, Treatment('Product Inquiry'))[T.Complaint]",-0.2699,-0.3492,-0.1905,0.0
+"C(ticket_category, Treatment('Product Inquiry'))[T.Delivery Problem]",-0.0008,-0.0618,0.0601,0.979
+"C(ticket_category, Treatment('Product Inquiry'))[T.Order Status]",0.0153,-0.0435,0.0741,0.6096
+"C(ticket_category, Treatment('Product Inquiry'))[T.Returns & Refunds]",0.1142,0.0537,0.1748,0.0002
+"C(ticket_category, Treatment('Product Inquiry'))[T.Technical Issue]",0.0276,-0.0282,0.0834,0.3329
+log_frt,-0.1608,-0.1801,-0.1415,0.0
+sla_breached_i,-1.0254,-1.0574,-0.9933,0.0
+reopened_count,-0.5384,-0.5704,-0.5064,0.0
+escalated,-0.4018,-0.4425,-0.3612,0.0
+fcr,0.2555,0.225,0.2859,0.0

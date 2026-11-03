@@ -1,0 +1,61 @@
+agent_id,agent_name,team,department_id,hire_date,experience_level,employment_status,shift,location
+AGT-001,Abigail Shaffer,Tier 2 Engineering,DEP-01,2016-08-15,Senior,Active,Night,"Austin, US"
+AGT-002,Gina Moore,Tier 2 Engineering,DEP-01,2020-11-13,Mid-Level,Active,Night,Remote - US
+AGT-003,Gabrielle Davis,Tier 1 Support,DEP-01,2019-02-22,Senior,Active,Morning,"Manila, PH"
+AGT-004,Ryan Munoz,Tier 1 Support,DEP-01,2021-10-11,Senior,Active,Afternoon,"Manila, PH"
+AGT-005,Monica Herrera,Tier 2 Engineering,DEP-01,2021-03-10,Senior,Active,Night,Remote - US
+AGT-006,Jamie Arnold,Tier 1 Support,DEP-01,2018-04-10,Senior,Active,Afternoon,"Austin, US"
+AGT-007,Lisa Hensley,Tier 2 Engineering,DEP-01,2021-05-12,Mid-Level,Active,Morning,"Manila, PH"
+AGT-008,Michele Williams,Tier 2 Engineering,DEP-01,2018-01-05,Senior,Active,Afternoon,Remote - US
+AGT-009,Dylan Miller,Tier 1 Support,DEP-01,2017-09-17,Senior,Active,Afternoon,"Manila, PH"
+AGT-010,Brian Ramirez,Tier 2 Engineering,DEP-01,2019-12-12,Senior,Active,Morning,"Austin, US"
+AGT-011,Holly Wood,Tier 1 Support,DEP-01,2021-09-26,Mid-Level,Active,Morning,Remote - US
+AGT-012,Derek Zuniga,Tier 1 Support,DEP-01,2020-08-14,Senior,Active,Morning,"Austin, US"
+AGT-013,Lisa Jackson,Tier 2 Engineering,DEP-01,2022-04-15,Mid-Level,Active,Afternoon,Remote - US
+AGT-014,Carla Gray,Tier 1 Support,DEP-01,2019-02-11,Mid-Level,Active,Night,"Austin, US"
+AGT-015,Margaret Hawkins DDS,Tier 2 Engineering,DEP-01,2023-08-26,Mid-Level,Active,Morning,"Manila, PH"
+AGT-016,Patty Perez,Tier 2 Engineering,DEP-01,2017-11-25,Lead,Active,Morning,Remote - US
+AGT-017,Ethan Adams,Tier 2 Engineering,DEP-01,2018-02-26,Lead,Active,Afternoon,Remote - US
+AGT-018,Tommy Walter,Billing Operations,DEP-02,2016-08-03,Lead,Terminated,Morning,Remote - EU
+AGT-019,Matthew Foster,Billing Operations,DEP-02,2016-09-20,Lead,Terminated,Morning,Remote - EU
+AGT-020,Judy Baker,Billing Operations,DEP-02,2020-02-15,Senior,Active,Morning,"Dublin, IE"
+AGT-021,Justin Baker,Billing Operations,DEP-02,2019-05-25,Mid-Level,Active,Afternoon,Remote - EU
+AGT-022,Stephanie Ross,Billing Operations,DEP-02,2019-01-24,Mid-Level,Active,Morning,Remote - EU
+AGT-023,Zachary Hicks,Billing Operations,DEP-02,2020-09-10,Mid-Level,Active,Morning,"Dublin, IE"
+AGT-024,Anthony Rodriguez,Billing Operations,DEP-02,2023-02-03,Junior,Active,Night,Remote - EU
+AGT-025,Rebecca Henderson,Billing Operations,DEP-02,2018-01-11,Senior,On Leave,Morning,Remote - EU
+AGT-026,James Ferrell,Billing Operations,DEP-02,2025-06-12,Junior,Active,Morning,"Dublin, IE"
+AGT-027,Tricia Valencia,Order Desk,DEP-03,2021-05-22,Senior,Active,Morning,"Austin, US"
+AGT-028,Nathan Maldonado,Order Desk,DEP-03,2022-07-16,Mid-Level,Active,Morning,"Austin, US"
+AGT-029,Debra Davidson,Order Desk,DEP-03,2020-03-08,Mid-Level,Active,Afternoon,"Austin, US"
+AGT-030,Jeffrey Chavez,Order Desk,DEP-03,2017-01-01,Lead,Active,Morning,"Austin, US"
+AGT-031,Sherri Baker,Order Desk,DEP-03,2024-03-31,Mid-Level,Active,Afternoon,Remote - US
+AGT-032,Cassandra Gaines,Order Desk,DEP-03,2016-11-30,Lead,Active,Morning,Remote - US
+AGT-033,Elizabeth Fowler,Order Desk,DEP-03,2022-06-16,Mid-Level,Active,Morning,"Austin, US"
+AGT-034,Brittany Farmer,Order Desk,DEP-03,2022-09-29,Junior,On Leave,Morning,Remote - US
+AGT-035,Paula Moreno,Delivery Exceptions,DEP-04,2016-10-05,Lead,Active,Afternoon,Remote - EU
+AGT-036,Fred Smith,Delivery Exceptions,DEP-04,2022-01-21,Mid-Level,Terminated,Night,"Rotterdam, NL"
+AGT-037,Sherry Decker,Delivery Exceptions,DEP-04,2019-03-03,Lead,Terminated,Morning,Remote - EU
+AGT-038,Anthony Humphrey,Delivery Exceptions,DEP-04,2016-06-18,Senior,Active,Morning,Remote - EU
+AGT-039,Angelica Tucker,Delivery Exceptions,DEP-04,2022-06-06,Mid-Level,Active,Morning,"Rotterdam, NL"
+AGT-040,Philip Cannon,Delivery Exceptions,DEP-04,2017-03-21,Lead,Active,Afternoon,Remote - EU
+AGT-041,John Pierce,Delivery Exceptions,DEP-04,2022-02-09,Senior,Active,Morning,"Rotterdam, NL"
+AGT-042,Shane Henderson,Delivery Exceptions,DEP-04,2023-02-14,Junior,Active,Night,Remote - EU
+AGT-043,Joshua Blair,Returns Desk,DEP-05,2022-04-20,Mid-Level,Active,Afternoon,"Manila, PH"
+AGT-044,Eric Carney,Returns Desk,DEP-05,2022-10-01,Junior,Active,Morning,"Manila, PH"
+AGT-045,Jessica Holmes,Returns Desk,DEP-05,2021-12-26,Junior,Active,Morning,"Manila, PH"
+AGT-046,Danny Morgan,Returns Desk,DEP-05,2021-02-22,Mid-Level,Active,Afternoon,"Manila, PH"
+AGT-047,Crystal Robinson,Returns Desk,DEP-05,2018-04-15,Lead,Active,Afternoon,"Manila, PH"
+AGT-048,Mark Perez,Returns Desk,DEP-05,2021-05-08,Mid-Level,Active,Afternoon,"Manila, PH"
+AGT-049,Shannon Jones,Returns Desk,DEP-05,2020-06-01,Senior,Active,Afternoon,"Manila, PH"
+AGT-050,Michael Lewis,Returns Desk,DEP-05,2023-06-02,Mid-Level,Active,Afternoon,"Manila, PH"
+AGT-051,Timothy Duncan,Customer Success,DEP-06,2021-08-04,Mid-Level,Terminated,Afternoon,"Toronto, CA"
+AGT-052,Richard Aguirre,Customer Success,DEP-06,2019-04-28,Senior,Active,Afternoon,Remote - US
+AGT-053,Brent Jordan,Escalations Desk,DEP-06,2021-07-31,Mid-Level,Active,Morning,"Toronto, CA"
+AGT-054,John Daniel,Escalations Desk,DEP-06,2017-06-15,Lead,Active,Night,Remote - US
+AGT-055,Victoria Garcia,Customer Success,DEP-06,2021-04-28,Mid-Level,Active,Morning,Remote - US
+AGT-056,Gerald Hensley,Escalations Desk,DEP-06,2023-11-21,Mid-Level,Active,Morning,Remote - US
+AGT-057,Connor West,Customer Success,DEP-06,2025-06-06,Junior,Active,Afternoon,"Toronto, CA"
+AGT-058,Donald Wright,Customer Success,DEP-06,2024-01-24,Junior,Active,Morning,"Toronto, CA"
+AGT-059,Jessica Callahan,Escalations Desk,DEP-06,2023-09-29,Junior,Active,Night,"Toronto, CA"
+AGT-060,Amber Kidd,Customer Success,DEP-06,2020-05-08,Senior,Active,Morning,"Toronto, CA"

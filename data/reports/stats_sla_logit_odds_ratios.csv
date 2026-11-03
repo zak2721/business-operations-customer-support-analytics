@@ -1,0 +1,20 @@
+,odds_ratio,ci_low,ci_high,p_value
+Intercept,0.0024,0.0017,0.0034,0.0
+"C(ticket_priority, Treatment('Low'))[T.Critical]",4.2407,3.6995,4.8611,0.0
+"C(ticket_priority, Treatment('Low'))[T.High]",1.5986,1.4565,1.7545,0.0
+"C(ticket_priority, Treatment('Low'))[T.Medium]",1.2828,1.1776,1.3975,0.0
+"C(support_channel, Treatment('Phone'))[T.Email]",4.632,4.1851,5.1267,0.0
+"C(support_channel, Treatment('Phone'))[T.Live Chat]",1.1638,1.0372,1.3058,0.0098
+"C(support_channel, Treatment('Phone'))[T.Social Media]",4.1954,3.6362,4.8406,0.0
+"C(support_channel, Treatment('Phone'))[T.Web Portal]",6.0969,5.4078,6.8739,0.0
+"C(ticket_category, Treatment('Product Inquiry'))[T.Account Access]",1.7626,1.2203,2.5458,0.0025
+"C(ticket_category, Treatment('Product Inquiry'))[T.Billing & Payment]",13.8813,10.135,19.0125,0.0
+"C(ticket_category, Treatment('Product Inquiry'))[T.Complaint]",23.5461,16.7412,33.1169,0.0
+"C(ticket_category, Treatment('Product Inquiry'))[T.Delivery Problem]",34.9459,25.3108,48.2489,0.0
+"C(ticket_category, Treatment('Product Inquiry'))[T.Order Status]",4.686,3.3731,6.5099,0.0
+"C(ticket_category, Treatment('Product Inquiry'))[T.Returns & Refunds]",42.7649,31.0957,58.8133,0.0
+"C(ticket_category, Treatment('Product Inquiry'))[T.Technical Issue]",27.14,19.7951,37.2102,0.0
+"C(experience_level, Treatment('Lead'))[T.Junior]",5.1569,4.5215,5.8817,0.0
+"C(experience_level, Treatment('Lead'))[T.Mid-Level]",2.4896,2.2383,2.7691,0.0
+"C(experience_level, Treatment('Lead'))[T.Senior]",1.5663,1.4005,1.7518,0.0
+q4,2.3385,2.1592,2.5327,0.0

@@ -1,0 +1,16 @@
+customer_id,customer_segment,customer_lifetime_value,avg_csat,surveys
+CUS-02714,Enterprise,150671.18,3.4,5
+CUS-01604,Enterprise,121150.61,3.54,39
+CUS-01845,Enterprise,111628.21,3.69,14
+CUS-03034,Enterprise,110197.66,3.58,12
+CUS-02779,Enterprise,105601.41,3.4,11
+CUS-01612,Enterprise,99741.37,3.0,9
+CUS-01025,Enterprise,98621.73,3.63,19
+CUS-01975,Enterprise,93165.91,3.67,3
+CUS-02521,Enterprise,90889.85,3.57,7
+CUS-02312,Enterprise,89180.43,3.71,21
+CUS-02395,Enterprise,88102.16,3.68,39
+CUS-00262,Enterprise,86444.7,3.57,7
+CUS-00521,Enterprise,85913.52,3.62,40
+CUS-01130,Mid-Market,56006.25,3.56,9
+CUS-02497,Mid-Market,52237.63,3.67,3

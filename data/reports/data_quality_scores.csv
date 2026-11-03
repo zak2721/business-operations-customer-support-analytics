@@ -1,0 +1,10 @@
+table,raw_records,clean_records,records_removed,records_corrected,records_imputed,records_flagged,missing_cells_raw,duplicate_rows_raw,completeness_before,uniqueness_before,validity_before,quality_score_before,completeness_after,uniqueness_after,validity_after,quality_score_after
+customers,3230,3200,30,145,70,0,117,30,99.6,98.15,96.9,98.36,100.0,100.0,100.0,100.0
+departments,6,6,0,0,0,0,0,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+agents,60,60,0,0,0,0,0,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+support_tickets,24150,24000,150,880,120,130,1792,150,99.95,98.76,96.19,98.47,99.94,100.0,100.0,99.98
+customer_feedback,12538,12466,72,25,0,150,3621,60,99.87,99.05,99.39,99.48,99.83,100.0,100.0,99.93
+operations,14248,14248,0,32,88,0,70,0,99.94,100.0,99.65,99.87,100.0,100.0,100.0,100.0
+agent_performance,1984,1984,0,0,0,8,22,0,100.0,100.0,99.6,99.88,100.0,100.0,100.0,100.0
+business_costs,1296,1296,0,40,0,0,15,0,99.81,100.0,98.07,99.34,100.0,100.0,100.0,100.0
+calendar,1826,1826,0,0,0,0,0,0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0

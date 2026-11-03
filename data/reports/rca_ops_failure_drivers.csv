@@ -1,0 +1,34 @@
+factor,level,transactions,failure_rate_pct,lift,excess_failures
+department_id,DEP-02,3408581,2.767,1.38,26187
+process_name,Payment Reconciliation,1310492,3.941,1.97,25446
+operation_type,Refund Processing,310326,8.782,4.39,21048
+process_name,Refund Approval,310326,8.782,4.39,21048
+operation_type,Returns Processing,691085,3.19,1.6,8230
+department_id,DEP-05,691085,3.19,1.6,8230
+process_name,Returns Inspection,357714,4.206,2.1,7893
+year,2025,5398394,2.145,1.07,7889
+process_name,Shipment Dispatch,2024343,2.272,1.14,5525
+operation_type,Payment Processing,3098255,2.165,1.08,5138
+department_id,DEP-04,3929433,2.101,1.05,4013
+operation_type,Fulfillment,3929433,2.101,1.05,4013
+process_name,Onboarding Setup,142715,2.618,1.31,883
+operation_type,Customer Onboarding,249601,2.319,1.16,799
+department_id,DEP-06,249601,2.319,1.16,799
+q4,True,3179703,2.017,1.01,581
+process_name,Account Provisioning,500474,2.076,1.04,385
+process_name,Restocking,333371,2.1,1.05,337
+weekend,True,2359570,2.001,1.0,45
+weekend,False,12619731,1.999,1.0,-45
+process_name,Contract Renewal,106886,1.921,0.96,-83
+q4,False,11799598,1.994,1.0,-581
+process_name,Carrier Handoff,1905090,1.92,0.96,-1512
+year,2024,5009139,1.936,0.97,-3144
+year,2023,4571768,1.895,0.95,-4745
+department_id,DEP-01,1573289,1.548,0.77,-7096
+operation_type,Service Requests,1573289,1.548,0.77,-7096
+process_name,Password Reset Automation,1072815,1.301,0.65,-7482
+process_name,Order Validation,2861573,1.601,0.8,-11397
+process_name,Invoice Generation,1787763,0.863,0.43,-20307
+process_name,Order Entry,2265739,1.084,0.54,-20737
+operation_type,Order Processing,5127312,1.372,0.69,-32134
+department_id,DEP-03,5127312,1.372,0.69,-32134

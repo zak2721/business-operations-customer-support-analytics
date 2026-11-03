@@ -1,0 +1,11 @@
+agent_name,department_id,avg_tickets_per_month,dept_avg_tickets,pct_above_dept,avg_workload_hours
+Elizabeth Fowler,DEP-03,24.2,11.0,120.9,33.0
+Paula Moreno,DEP-04,21.4,10.2,110.1,32.1
+Richard Aguirre,DEP-06,13.3,7.7,72.4,29.5
+Jessica Holmes,DEP-05,16.2,9.7,66.2,29.9
+Fred Smith,DEP-04,16.2,10.2,59.4,29.5
+James Ferrell,DEP-02,28.0,18.1,55.1,34.8
+Crystal Robinson,DEP-05,15.1,9.7,54.6,30.0
+Lisa Hensley,DEP-01,19.7,13.1,50.0,31.5
+Brian Ramirez,DEP-01,18.3,13.1,39.6,30.5
+Rebecca Henderson,DEP-02,22.6,18.1,25.3,31.7

@@ -1,0 +1,19 @@
+department_name,year,spend,budget,utilisation_pct
+Billing & Accounts,2025,633386.0,520000.0,121.8
+Order Management,2025,536209.0,480000.0,111.7
+Customer Success,2025,615634.0,560000.0,109.9
+Technical Support,2025,986425.0,900000.0,109.6
+Logistics & Delivery,2025,707751.0,650000.0,108.9
+Returns & Refunds,2025,413580.0,380000.0,108.8
+Technical Support,2024,963794.0,900000.0,107.1
+Returns & Refunds,2024,402288.0,380000.0,105.9
+Logistics & Delivery,2024,687446.0,650000.0,105.8
+Billing & Accounts,2024,547453.0,520000.0,105.3
+Customer Success,2024,588817.0,560000.0,105.1
+Order Management,2024,502196.0,480000.0,104.6
+Technical Support,2023,926431.0,900000.0,102.9
+Logistics & Delivery,2023,667144.0,650000.0,102.6
+Order Management,2023,490973.0,480000.0,102.3
+Returns & Refunds,2023,387806.0,380000.0,102.1
+Billing & Accounts,2023,528225.0,520000.0,101.6
+Customer Success,2023,567146.0,560000.0,101.3

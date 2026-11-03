@@ -1,0 +1,16 @@
+support_channel,ticket_category,resolved,fcr_pct
+Phone,Product Inquiry,268,69.4
+Phone,Account Access,565,65.13
+Live Chat,Product Inquiry,345,61.45
+Live Chat,Account Access,601,60.07
+Phone,Order Status,633,45.97
+Live Chat,Order Status,745,42.28
+Social Media,Account Access,177,31.07
+Phone,Billing & Payment,1066,30.77
+Email,Product Inquiry,446,28.48
+Live Chat,Billing & Payment,1179,28.33
+Email,Account Access,804,26.62
+Web Portal,Product Inquiry,176,24.43
+Phone,Delivery Problem,579,23.14
+Web Portal,Account Access,348,22.99
+Phone,Technical Issue,1166,21.01

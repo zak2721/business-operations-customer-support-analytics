@@ -1,0 +1,10 @@
+value_tier,experience,customers,clv_at_stake,churned
+High value,At risk,32,1190876.0,6
+High value,Neutral,423,14470707.0,54
+High value,Satisfied,289,8629567.0,22
+Low value,At risk,56,46639.0,9
+Low value,Neutral,311,277357.0,38
+Low value,Satisfied,376,335699.0,26
+Mid value,At risk,39,216520.0,8
+Mid value,Neutral,369,1979990.0,49
+Mid value,Satisfied,335,1794156.0,16

@@ -1,0 +1,41 @@
+outcome,factor,spread_pp
+Escalated,ticket_category,21.75
+Escalated,ticket_priority,13.120000000000001
+Escalated,experience_level,7.250000000000001
+Escalated,department_name,6.45
+Escalated,created_dayname,1.5699999999999985
+Escalated,customer_segment,1.25
+Escalated,created_year,0.5099999999999998
+Escalated,support_channel,0.379999999999999
+Long resolution (> P90 = 80 h),ticket_category,24.52
+Long resolution (> P90 = 80 h),department_name,22.27
+Long resolution (> P90 = 80 h),ticket_priority,17.86
+Long resolution (> P90 = 80 h),experience_level,17.21
+Long resolution (> P90 = 80 h),support_channel,11.18
+Long resolution (> P90 = 80 h),created_dayname,5.9399999999999995
+Long resolution (> P90 = 80 h),created_year,3.530000000000001
+Long resolution (> P90 = 80 h),customer_segment,0.8100000000000005
+Low satisfaction (CSAT <= 2),ticket_category,21.860000000000003
+Low satisfaction (CSAT <= 2),support_channel,16.46
+Low satisfaction (CSAT <= 2),experience_level,12.09
+Low satisfaction (CSAT <= 2),created_dayname,11.09
+Low satisfaction (CSAT <= 2),department_name,9.89
+Low satisfaction (CSAT <= 2),ticket_priority,5.030000000000001
+Low satisfaction (CSAT <= 2),created_year,2.01
+Low satisfaction (CSAT <= 2),customer_segment,1.7699999999999996
+Reopened,ticket_category,12.809999999999999
+Reopened,experience_level,10.639999999999999
+Reopened,department_name,10.129999999999999
+Reopened,ticket_priority,2.1999999999999993
+Reopened,created_year,1.2700000000000005
+Reopened,created_dayname,1.080000000000001
+Reopened,support_channel,0.9499999999999993
+Reopened,customer_segment,0.6099999999999994
+SLA breach,ticket_category,46.53
+SLA breach,department_name,38.22
+SLA breach,support_channel,27.410000000000004
+SLA breach,experience_level,27.190000000000005
+SLA breach,ticket_priority,23.580000000000002
+SLA breach,created_dayname,19.21
+SLA breach,created_year,5.710000000000001
+SLA breach,customer_segment,0.759999999999998

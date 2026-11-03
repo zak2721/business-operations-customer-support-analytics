@@ -1,0 +1,21 @@
+agent_name,department_name,experience_level,tickets_assigned,tickets_resolved,productivity_pct,avg_resolution_h,sla_compliance_pct,reopen_pct,avg_csat
+Elizabeth Fowler,Order Management,Mid-Level,895,859,98.74,22.03,86.35,5.47,3.873
+Rebecca Henderson,Billing & Accounts,Senior,828,799,98.16,28.05,78.1,6.63,3.957
+Paula Moreno,Logistics & Delivery,Lead,784,757,98.44,36.61,69.89,5.55,3.618
+Justin Baker,Billing & Accounts,Mid-Level,735,709,98.47,34.68,72.21,9.17,3.752
+Stephanie Ross,Billing & Accounts,Mid-Level,732,708,99.02,38.92,71.57,10.73,3.765
+Lisa Hensley,Technical Support,Mid-Level,721,705,99.58,35.99,69.22,8.23,3.813
+Brian Ramirez,Technical Support,Senior,677,652,98.79,28.11,77.23,7.82,3.609
+Anthony Rodriguez,Billing & Accounts,Junior,669,648,98.48,49.69,62.81,14.97,3.441
+Jessica Holmes,Returns & Refunds,Junior,597,577,98.97,83.11,32.52,21.14,3.383
+Carla Gray,Technical Support,Mid-Level,599,577,98.46,34.33,68.98,12.82,3.549
+Jamie Arnold,Technical Support,Senior,599,576,97.63,26.79,79.65,5.73,3.62
+Abigail Shaffer,Technical Support,Senior,562,550,99.46,28.47,74.73,5.09,3.865
+Crystal Robinson,Returns & Refunds,Lead,555,539,99.45,45.04,65.18,9.83,3.785
+Zachary Hicks,Billing & Accounts,Mid-Level,549,532,98.52,37.94,71.19,8.08,3.532
+Ethan Adams,Technical Support,Lead,532,519,99.43,23.2,79.92,5.59,4.115
+Gina Moore,Technical Support,Mid-Level,514,497,98.61,35.57,68.01,9.46,3.773
+Judy Baker,Billing & Accounts,Senior,496,485,98.98,30.36,79.79,7.42,3.942
+Richard Aguirre,Customer Success,Senior,488,477,99.58,21.74,83.79,4.82,3.784
+Debra Davidson,Order Management,Mid-Level,491,474,98.96,22.58,88.82,4.85,4.033
+Lisa Jackson,Technical Support,Mid-Level,480,461,98.29,35.54,70.5,9.54,3.691

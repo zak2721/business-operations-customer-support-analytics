@@ -1,0 +1,5 @@
+customer_segment,customers,avg_clv,median_clv,total_clv
+Enterprise,394,48925.0,42570.0,19276453.0
+Mid-Market,742,14268.0,12298.0,10586738.0
+Small Business,951,4405.0,3614.0,4189606.0
+Consumer,1113,794.0,637.0,883256.0

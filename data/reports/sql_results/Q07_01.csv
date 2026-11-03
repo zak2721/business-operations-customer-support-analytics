@@ -1,0 +1,2 @@
+total_transactions,successful,failed,success_rate_pct,failure_rate_pct,avg_processing_min,total_cost,cost_per_transaction
+14979301,14679878,299423,98.0,2.0,2.77,11944594.04,0.7974

@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-10-30T12:49:47",
+  "total_raw_records": 59338,
+  "total_clean_records": 59086,
+  "records_removed": 252,
+  "records_corrected": 1122,
+  "records_imputed": 278,
+  "records_flagged": 288,
+  "missing_cells_raw": 5637,
+  "duplicate_rows_raw": 240,
+  "quality_score_before": 99.13,
+  "quality_score_after": 99.98
+}

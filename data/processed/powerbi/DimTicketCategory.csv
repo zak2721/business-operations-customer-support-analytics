@@ -1,0 +1,35 @@
+category_key,ticket_category,ticket_subcategory
+1,Account Access,2FA Problem
+2,Account Access,Account Locked
+3,Account Access,Password Reset
+4,Account Access,Permission Change
+5,Billing & Payment,Double Billing
+6,Billing & Payment,Incorrect Charge
+7,Billing & Payment,Invoice Request
+8,Billing & Payment,Payment Failed
+9,Billing & Payment,Subscription Change
+10,Complaint,Agent Behaviour
+11,Complaint,Policy Complaint
+12,Complaint,Product Quality
+13,Complaint,Service Complaint
+14,Delivery Problem,Damaged Package
+15,Delivery Problem,Late Delivery
+16,Delivery Problem,Lost Shipment
+17,Delivery Problem,Wrong Address
+18,Order Status,Missing Items
+19,Order Status,Order Cancellation
+20,Order Status,Order Modification
+21,Order Status,Order Tracking
+22,Product Inquiry,Compatibility
+23,Product Inquiry,Feature Question
+24,Product Inquiry,Pricing Question
+25,Product Inquiry,Upgrade Options
+26,Returns & Refunds,Exchange Request
+27,Returns & Refunds,Refund Denied
+28,Returns & Refunds,Refund Status
+29,Returns & Refunds,Return Label
+30,Technical Issue,App Crash
+31,Technical Issue,Data Sync Issue
+32,Technical Issue,Integration Error
+33,Technical Issue,Login Failure
+34,Technical Issue,Performance Degradation

@@ -1,0 +1,7 @@
+department_name,n_resolved,sla_pct,ci95_low,ci95_high
+Returns & Refunds,2738,50.0,48.13,51.87
+Logistics & Delivery,2628,63.85,62.0,65.67
+Billing & Accounts,4721,73.73,72.46,74.97
+Technical Support,7880,74.71,73.74,75.66
+Customer Success,2274,83.07,81.47,84.55
+Order Management,2970,88.22,87.01,89.33

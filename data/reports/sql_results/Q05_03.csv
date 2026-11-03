@@ -1,0 +1,7 @@
+support_channel,tickets,avg_frt_h,avg_resolution_h,sla_compliance_pct,fcr_pct,avg_csat
+Web Portal,3179,13.47,48.69,58.55,11.37,3.318
+Email,7885,10.29,44.26,63.21,13.57,3.474
+Social Media,1684,7.53,44.11,65.33,14.5,3.369
+Unknown,120,3.85,33.68,69.3,14.04,3.527
+Live Chat,5849,0.13,23.03,84.33,29.49,4.129
+Phone,5283,0.08,20.78,85.96,32.97,4.16

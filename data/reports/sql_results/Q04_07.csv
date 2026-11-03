@@ -1,0 +1,4 @@
+customer_status,tickets,avg_csat,sla_pct,escalation_pct
+Churned,2444,3.66,71.13,11.21
+Active,21022,3.76,73.04,9.93
+Inactive,534,3.76,76.2,7.68

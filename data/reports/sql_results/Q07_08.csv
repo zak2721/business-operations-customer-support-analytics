@@ -1,0 +1,19 @@
+department_name,year,resolved,total_cost,cost_per_resolved_ticket
+Billing & Accounts,2023,1246,528225.0,423.94
+Billing & Accounts,2024,1449,547453.0,377.81
+Billing & Accounts,2025,2030,633386.0,312.01
+Customer Success,2023,735,567146.0,771.63
+Customer Success,2024,781,588817.0,753.93
+Customer Success,2025,760,615634.0,810.04
+Logistics & Delivery,2023,811,667144.0,822.62
+Logistics & Delivery,2024,936,687446.0,734.45
+Logistics & Delivery,2025,886,707751.0,798.82
+Order Management,2023,965,490973.0,508.78
+Order Management,2024,1021,502196.0,491.87
+Order Management,2025,987,536209.0,543.27
+Returns & Refunds,2023,863,387806.0,449.37
+Returns & Refunds,2024,962,402288.0,418.18
+Returns & Refunds,2025,919,413580.0,450.03
+Technical Support,2023,2460,926431.0,376.6
+Technical Support,2024,2742,963794.0,351.49
+Technical Support,2025,2683,986425.0,367.66

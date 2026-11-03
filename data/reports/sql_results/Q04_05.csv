@@ -1,0 +1,5 @@
+contact_band,customers,avg_clv,tickets
+0 - never contacted,607,5311.0,0.0
+1-3 - light,1021,7652.0,1862.0
+11+ - heavy,679,20644.0,16526.0
+4-10 - regular,893,11067.0,5612.0

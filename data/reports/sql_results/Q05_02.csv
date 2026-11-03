@@ -1,0 +1,44 @@
+category,subcategory,tickets
+Account Access,Subtotal,2578
+Account Access,Password Reset,658
+Account Access,Account Locked,654
+Account Access,2FA Problem,643
+Account Access,Permission Change,623
+Billing & Payment,Subtotal,4885
+Billing & Payment,Incorrect Charge,1017
+Billing & Payment,Subscription Change,998
+Billing & Payment,Invoice Request,988
+Billing & Payment,Double Billing,956
+Billing & Payment,Payment Failed,926
+Complaint,Subtotal,976
+Complaint,Service Complaint,258
+Complaint,Policy Complaint,258
+Complaint,Agent Behaviour,241
+Complaint,Product Quality,219
+Delivery Problem,Subtotal,2719
+Delivery Problem,Damaged Package,697
+Delivery Problem,Late Delivery,692
+Delivery Problem,Lost Shipment,689
+Delivery Problem,Wrong Address,641
+Order Status,Subtotal,3084
+Order Status,Order Tracking,820
+Order Status,Order Cancellation,774
+Order Status,Order Modification,759
+Order Status,Missing Items,731
+Product Inquiry,Subtotal,1368
+Product Inquiry,Upgrade Options,354
+Product Inquiry,Feature Question,347
+Product Inquiry,Pricing Question,345
+Product Inquiry,Compatibility,322
+Returns & Refunds,Subtotal,2832
+Returns & Refunds,Return Label,729
+Returns & Refunds,Refund Denied,714
+Returns & Refunds,Exchange Request,713
+Returns & Refunds,Refund Status,676
+Technical Issue,Subtotal,5558
+Technical Issue,Integration Error,1139
+Technical Issue,Data Sync Issue,1130
+Technical Issue,Performance Degradation,1114
+Technical Issue,App Crash,1107
+Technical Issue,Login Failure,1068
+ALL,Subtotal,24000

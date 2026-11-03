@@ -1,0 +1,14 @@
+process_key,department_id,operation_type,process_name
+1,DEP-01,Service Requests,Account Provisioning
+2,DEP-04,Fulfillment,Carrier Handoff
+3,DEP-06,Customer Onboarding,Contract Renewal
+4,DEP-02,Payment Processing,Invoice Generation
+5,DEP-06,Customer Onboarding,Onboarding Setup
+6,DEP-03,Order Processing,Order Entry
+7,DEP-03,Order Processing,Order Validation
+8,DEP-01,Service Requests,Password Reset Automation
+9,DEP-02,Payment Processing,Payment Reconciliation
+10,DEP-02,Refund Processing,Refund Approval
+11,DEP-05,Returns Processing,Restocking
+12,DEP-05,Returns Processing,Returns Inspection
+13,DEP-04,Fulfillment,Shipment Dispatch

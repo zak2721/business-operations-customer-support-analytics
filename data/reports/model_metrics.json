@@ -1,0 +1,105 @@
+{
+  "target": "SLA breach (resolution_hours > sla_target_hours) for resolved tickets",
+  "train_rows": 14949,
+  "test_rows": 8247,
+  "train_period": "2023-01-01 to 2024-12-31",
+  "test_period": "2025-01-01 to 2025-12-31",
+  "test_breach_rate_pct": 30.27,
+  "features_categorical": [
+    "ticket_priority",
+    "ticket_category",
+    "ticket_subcategory",
+    "support_channel",
+    "department_id",
+    "experience_level",
+    "customer_segment",
+    "created_dayname"
+  ],
+  "features_numeric": [
+    "created_hour",
+    "created_month_num",
+    "is_q4",
+    "agent_load_7d",
+    "customer_prior_tickets",
+    "days_since_prev_ticket_f"
+  ],
+  "excluded_leaky_features": [
+    "first_response_hours",
+    "reopened_count",
+    "escalation_flag",
+    "resolution_type",
+    "satisfaction_score",
+    "resolution_hours",
+    "is_fcr"
+  ],
+  "models": {
+    "Logistic Regression": {
+      "cv_roc_auc_mean": 0.8229,
+      "cv_roc_auc_std": 0.0049,
+      "threshold": 0.59,
+      "test_roc_auc": 0.7969,
+      "test_pr_auc": 0.6259,
+      "test_precision": 0.5728,
+      "test_recall": 0.5909,
+      "test_f1": 0.5817,
+      "confusion_matrix": {
+        "tn": 4651,
+        "fp": 1100,
+        "fn": 1021,
+        "tp": 1475
+      }
+    },
+    "Gradient Boosting": {
+      "cv_roc_auc_mean": 0.8106,
+      "cv_roc_auc_std": 0.0144,
+      "threshold": 0.54,
+      "test_roc_auc": 0.7987,
+      "test_pr_auc": 0.6392,
+      "test_precision": 0.5569,
+      "test_recall": 0.6094,
+      "test_f1": 0.582,
+      "confusion_matrix": {
+        "tn": 4541,
+        "fp": 1210,
+        "fn": 975,
+        "tp": 1521
+      }
+    }
+  },
+  "caveat": "Synthetic data. Metrics illustrate methodology only and are not evidence of real-world performance.",
+  "selected_model": "Gradient Boosting",
+  "top_features": [
+    {
+      "feature": "support_channel",
+      "importance": 0.1032,
+      "std": 0.0047
+    },
+    {
+      "feature": "ticket_category",
+      "importance": 0.05,
+      "std": 0.0025
+    },
+    {
+      "feature": "experience_level",
+      "importance": 0.0331,
+      "std": 0.0027
+    },
+    {
+      "feature": "ticket_subcategory",
+      "importance": 0.0264,
+      "std": 0.0019
+    },
+    {
+      "feature": "created_dayname",
+      "importance": 0.0247,
+      "std": 0.0011
+    },
+    {
+      "feature": "ticket_priority",
+      "importance": 0.0194,
+      "std": 0.0017
+    }
+  ],
+  "top_decile_breach_rate_pct": 75.27,
+  "bottom_decile_breach_rate_pct": 0.73
+}

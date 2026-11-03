@@ -1,0 +1,7 @@
+department_id,department_name,department_manager,department_location,operational_budget
+DEP-01,Technical Support,Allison Hill,"Austin, US",900000.0
+DEP-02,Billing & Accounts,Noah Rhodes,"Dublin, IE",520000.0
+DEP-03,Order Management,Angie Henderson,"Austin, US",480000.0
+DEP-04,Logistics & Delivery,Daniel Wagner,"Rotterdam, NL",650000.0
+DEP-05,Returns & Refunds,Cristian Santos,"Manila, PH",380000.0
+DEP-06,Customer Success,Connie Lawrence,"Toronto, CA",560000.0

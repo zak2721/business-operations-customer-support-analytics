@@ -1,0 +1,7 @@
+relationship,n,spearman_rho,spearman_p,pearson_r,pearson_p,unit,strength
+First response time vs CSAT,12264,-0.372,0.0,-0.338,0.0,ticket,moderate
+Resolution time vs CSAT,12301,-0.561,0.0,-0.484,0.0,ticket,strong
+Agent monthly workload vs avg resolution time,1984,0.14,3.5009569221735983e-10,0.096,1.7351709735364934e-05,agent-month,weak
+Agent monthly workload vs SLA compliance,1976,-0.121,6.079159678019008e-08,-0.104,3.920737982513924e-06,agent-month,weak
+Priority (ordinal) vs SLA breach,23211,0.116,1.590679747830945e-70,0.124,4.228164677580935e-80,ticket,weak
+Daily transaction volume vs operational cost,1096,0.99,0.0,0.991,0.0,day,strong

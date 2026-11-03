@@ -1,0 +1,14 @@
+department_id,department_name,operation_type,process_name,transactions,success_rate_pct,failure_rate_pct,avg_processing_min,operational_cost,degraded_days_pct
+DEP-02,Billing & Accounts,Refund Processing,Refund Approval,310326,91.218,8.782,9.68,920254.68,89.42
+DEP-05,Returns & Refunds,Returns Processing,Returns Inspection,357714,95.794,4.206,16.13,1304657.52,23.54
+DEP-02,Billing & Accounts,Payment Processing,Payment Reconciliation,1310492,96.059,3.941,2.24,969303.6,17.7
+DEP-06,Customer Success,Customer Onboarding,Onboarding Setup,142715,97.382,2.618,25.26,1112226.63,7.21
+DEP-04,Logistics & Delivery,Fulfillment,Shipment Dispatch,2024343,97.728,2.272,4.52,2484451.11,0.55
+DEP-05,Returns & Refunds,Returns Processing,Restocking,333371,97.9,2.1,6.06,591659.5,1.28
+DEP-01,Technical Support,Service Requests,Account Provisioning,500474,97.924,2.076,3.54,632462.97,1.0
+DEP-06,Customer Success,Customer Onboarding,Contract Renewal,106886,98.079,1.921,18.17,603397.65,3.83
+DEP-04,Logistics & Delivery,Fulfillment,Carrier Handoff,1905090,98.08,1.92,1.82,1095625.67,1.46
+DEP-03,Order Management,Order Processing,Order Validation,2861573,98.399,1.601,0.91,736506.34,1.19
+DEP-01,Technical Support,Service Requests,Password Reset Automation,1072815,98.699,1.301,0.82,266969.18,1.0
+DEP-03,Order Management,Order Processing,Order Entry,2265739,98.916,1.084,1.43,754716.25,0.36
+DEP-02,Billing & Accounts,Payment Processing,Invoice Generation,1787763,99.137,0.863,0.61,472362.94,0.27

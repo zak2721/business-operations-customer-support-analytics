@@ -1,0 +1,14 @@
+process_name,peak_min,offpeak_min,peak_uplift_pct
+Shipment Dispatch,6.29,4.04,55.7
+Returns Inspection,16.32,16.07,1.6
+Refund Approval,9.76,9.66,1.0
+Order Entry,1.44,1.43,0.7
+Onboarding Setup,25.37,25.23,0.6
+Payment Reconciliation,2.25,2.24,0.4
+Account Provisioning,3.55,3.54,0.3
+Password Reset Automation,0.82,0.82,0.0
+Invoice Generation,0.61,0.61,0.0
+Carrier Handoff,1.82,1.82,0.0
+Contract Renewal,18.1,18.19,-0.5
+Restocking,6.03,6.07,-0.7
+Order Validation,0.9,0.91,-1.1

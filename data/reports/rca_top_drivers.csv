@@ -1,0 +1,26 @@
+outcome,factor,level,n,outcome_rate_pct,baseline_pct,lift,excess_cases
+Escalated,ticket_category,Technical Issue,5437,15.54,10.23,1.52,288
+Escalated,ticket_priority,High,5853,14.88,10.23,1.45,272
+Escalated,ticket_priority,Critical,1622,18.87,10.23,1.84,140
+Escalated,department_name,Technical Support,7971,11.84,10.23,1.16,128
+Escalated,ticket_category,Complaint,956,23.54,10.23,2.3,127
+Long resolution (> P90 = 80 h),ticket_priority,Low,6626,18.11,10.0,1.81,537
+Long resolution (> P90 = 80 h),ticket_category,Returns & Refunds,2738,24.8,10.0,2.48,405
+Long resolution (> P90 = 80 h),department_name,Returns & Refunds,2738,24.8,10.0,2.48,405
+Long resolution (> P90 = 80 h),experience_level,Junior,2645,23.48,10.0,2.35,356
+Long resolution (> P90 = 80 h),support_channel,Email,7617,13.67,10.0,1.37,279
+Low satisfaction (CSAT <= 2),support_channel,Email,4074,16.62,11.91,1.4,191
+Low satisfaction (CSAT <= 2),support_channel,Web Portal,1710,20.82,11.91,1.75,152
+Low satisfaction (CSAT <= 2),experience_level,Junior,1486,20.66,11.91,1.73,129
+Low satisfaction (CSAT <= 2),created_dayname,Saturday,1142,20.75,11.91,1.74,100
+Low satisfaction (CSAT <= 2),ticket_category,Technical Issue,2920,14.73,11.91,1.24,82
+Reopened,experience_level,Junior,2647,16.24,8.18,1.99,213
+Reopened,ticket_category,Returns & Refunds,2744,14.54,8.18,1.78,174
+Reopened,department_name,Returns & Refunds,2744,14.54,8.18,1.78,174
+Reopened,created_year,2025,8265,8.88,8.18,1.09,57
+Reopened,ticket_category,Technical Issue,5377,9.19,8.18,1.12,54
+SLA breach,support_channel,Email,7617,36.79,27.09,1.36,738
+SLA breach,ticket_category,Returns & Refunds,2738,50.0,27.09,1.85,627
+SLA breach,department_name,Returns & Refunds,2738,50.0,27.09,1.85,627
+SLA breach,experience_level,Junior,2645,46.77,27.09,1.73,520
+SLA breach,support_channel,Web Portal,3086,41.45,27.09,1.53,443

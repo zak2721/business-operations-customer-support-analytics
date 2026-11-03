@@ -1,0 +1,16 @@
+ticket_id,ticket_status,ticket_priority,ticket_category,department_name,agent,age_days
+TCK-014427,In Progress,Medium,Order Status,Order Management,Debra Davidson,394.1
+TCK-014522,Pending,Medium,Delivery Problem,Logistics & Delivery,Shane Henderson,391.2
+TCK-014728,In Progress,Medium,Delivery Problem,Logistics & Delivery,Anthony Humphrey,384.4
+TCK-014730,Pending,High,Order Status,Order Management,Elizabeth Fowler,384.4
+TCK-015073,Pending,Critical,Technical Issue,Technical Support,Holly Wood,372.4
+TCK-015096,Pending,Low,Technical Issue,Technical Support,Dylan Miller,371.7
+TCK-015406,Pending,Medium,Delivery Problem,Logistics & Delivery,Shane Henderson,359.8
+TCK-015719,Pending,Medium,Technical Issue,Technical Support,Gina Moore,347.2
+TCK-015803,Pending,Low,Account Access,Technical Support,Monica Herrera,342.7
+TCK-015938,In Progress,Critical,Account Access,Technical Support,Abigail Shaffer,337.7
+TCK-015955,Pending,Medium,Technical Issue,Technical Support,Lisa Hensley,337.4
+TCK-016232,In Progress,Medium,Delivery Problem,Logistics & Delivery,Angelica Tucker,325.0
+TCK-016257,In Progress,Medium,Returns & Refunds,Returns & Refunds,Joshua Blair,323.7
+TCK-016263,Open,High,Order Status,Order Management,Cassandra Gaines,323.6
+TCK-016585,Open,Low,Billing & Payment,Billing & Accounts,Stephanie Ross,308.5

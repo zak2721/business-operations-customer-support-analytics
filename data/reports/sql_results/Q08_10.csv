@@ -1,0 +1,11 @@
+agent_name,department_name,avg_csat,pct_rank,cume_dist
+Eric Carney,Returns & Refunds,3.208,0.0,0.017
+Shane Henderson,Logistics & Delivery,3.244,0.017,0.033
+Fred Smith,Logistics & Delivery,3.33,0.034,0.05
+Donald Wright,Customer Success,3.333,0.051,0.067
+Jessica Holmes,Returns & Refunds,3.383,0.068,0.083
+Anthony Rodriguez,Billing & Accounts,3.441,0.085,0.1
+Mark Perez,Returns & Refunds,3.449,0.102,0.117
+James Ferrell,Billing & Accounts,3.461,0.119,0.133
+Danny Morgan,Returns & Refunds,3.489,0.136,0.15
+Jessica Callahan,Customer Success,3.5,0.153,0.167

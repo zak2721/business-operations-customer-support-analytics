@@ -1,0 +1,5 @@
+ticket_priority,sla_target_h,resolved,avg_resolution_h,median_resolution_h,p90_resolution_h,sla_compliance_pct
+Critical,8,1600,11.44,7.03,27.06,54.69
+High,24,5804,21.2,14.96,47.06,69.37
+Medium,48,9181,36.39,25.38,81.32,74.47
+Low,72,6626,48.94,34.41,110.15,78.27

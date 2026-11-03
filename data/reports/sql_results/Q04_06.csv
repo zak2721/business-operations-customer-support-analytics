@@ -1,0 +1,16 @@
+customer_id,customer_segment,customer_region,tickets,repeat_contacts,escalations,avg_csat,customer_lifetime_value
+CUS-00003,Enterprise,North America,256,218,16,3.8,31687.31
+CUS-01324,Enterprise,Europe,154,93,16,3.52,43846.08
+CUS-00209,Enterprise,North America,125,66,18,3.68,36002.93
+CUS-02982,Enterprise,North America,122,65,14,3.82,40831.09
+CUS-00697,Enterprise,Europe,101,46,11,3.77,36680.77
+CUS-02888,Enterprise,Latin America,94,46,8,3.65,40396.88
+CUS-00786,Enterprise,Europe,91,46,7,3.74,27190.63
+CUS-00499,Mid-Market,Asia Pacific,90,43,8,3.92,13812.58
+CUS-00754,Mid-Market,Europe,87,33,8,4.04,7064.61
+CUS-02404,Enterprise,North America,86,42,6,3.92,38149.78
+CUS-03153,Mid-Market,Europe,84,38,6,3.87,22048.02
+CUS-01395,Mid-Market,Asia Pacific,83,35,6,3.77,4067.55
+CUS-00911,Mid-Market,Europe,83,33,14,3.63,4599.42
+CUS-01966,Enterprise,Asia Pacific,79,33,10,4.12,25405.05
+CUS-00858,Mid-Market,Europe,79,32,8,3.82,9164.96

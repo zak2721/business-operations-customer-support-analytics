@@ -1,0 +1,6 @@
+support_channel,n_surveys,avg_csat,ci95_low,ci95_high
+Phone,2672,4.16,4.128,4.193
+Live Chat,2936,4.129,4.098,4.16
+Email,4074,3.474,3.444,3.504
+Social Media,869,3.369,3.303,3.436
+Web Portal,1710,3.318,3.271,3.365
