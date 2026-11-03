@@ -323,6 +323,6 @@ Business-hours SLA clocks · interaction-level data for true FCR/AHT · ordinal 
 ## Author
 
 **[Zekarias Adefris]** — Data Analyst · BI Developer
-[LinkedIn](#) · [https://www.upwork.com/freelancers/~014b71feeba4e6ad40?mp_source=share](#) · [Zekiostheone@gmail.com](#)
+· [https://www.upwork.com/freelancers/~014b71feeba4e6ad40?mp_source=share](#) · [Zekiostheone@gmail.com](#)
 
 *Licensed under the MIT License.*
